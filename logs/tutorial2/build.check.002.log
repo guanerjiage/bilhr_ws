@@ -1,0 +1,8 @@
+/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
+/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
+/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
+/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
+CMake Error: The source directory "/home/gejg/ros/bioinspired_ws/src/tutorial2" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+Makefile:388: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1

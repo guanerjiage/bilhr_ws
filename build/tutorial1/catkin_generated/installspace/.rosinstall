@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/gejg/ros/bioinspired_ws/install/setup.sh

@@ -1,0 +1,6 @@
+<launch>
+
+<include file="$(find nao_bringup)/launch/nao_full_py.launch"/>
+<node name="central_node" pkg="tutorial2" type="tutorial_2.py"/>
+
+</launch>
