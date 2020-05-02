@@ -21,6 +21,8 @@ class Central:
         self.stiffness = False  
         self.right_arm_mirror = False
         self.robot_state = 0 # 0: no action, 1: arm home position, 2: wave, 3: head home position, 4: head nod, 5: arm to middle
+        self.red_blob_x = 0
+        self.red_blob_y = 0
 
     # b: arm to home position, w: wave, r: right arm mirror start/stop, a: head to home position, n: head nod, t: arm to middle (cv test)
     def key_cb(self,data):
@@ -105,6 +107,11 @@ class Central:
             center_y = int(max_contour_moment["m01"] / max_contour_moment["m00"])
             # draw a cross at the center
             image_cross = cv2.drawMarker(cv_image, (center_x, center_y), (255, 255, 255), markerType=cv2.MARKER_CROSS)
+            # only output coordinates if changed
+            if center_x != self.red_blob_x or center_y != self.red_blob_y: 
+                self.red_blob_x = center_x
+                self.red_blob_y = center_y
+                rospy.loginfo("New Red Blob Coordinates: %d, %d" % (center_x, center_y))
         else:
             image_cross = cv_image        
         
