@@ -16,21 +16,13 @@ class Central:
         self.joint_angles = []
         self.joint_velocities = []
         self.jointPub = 0
-        self.stiffness = False 
-        self.instruction = 'h' 
-        self.follow_flag = 'n'
+        self.stiffness = False  
 
         pass
 
 
     def key_cb(self,data):
         rospy.loginfo(rospy.get_caller_id() + "I heard %s", data.data)
-
-    def instruction_cb(self,data):
-        if(data.data == 'f' or data.data == 'n'):
-            self.follow_flag = data.data
-        elif(data.data == 'r' or data.data == 'h'):
-            self.instruction = data.data
 
     def joints_cb(self,data):
         #rospy.loginfo("joint states "+str(data.name)+str(data.position))
@@ -73,63 +65,15 @@ class Central:
         except rospy.ServiceException, e:
             rospy.logerr(e)
 
-    def set_joint_angles(self, names, head_angles):
+    def set_joint_angles(self,head_angle):
+
         joint_angles_to_set = JointAnglesWithSpeed()
-        for i in range(len(names)): 
-            joint_angles_to_set.joint_names.append(names[i]) 
-            # each joint has a specific name, look into the joint_state topic or google
-            joint_angles_to_set.joint_angles.append(head_angles[i]) 
-            # the joint values have to be in the same order as the names!!
+        joint_angles_to_set.joint_names.append("RShoulderPitch") # each joint has a specific name, look into the joint_state topic or google
+        joint_angles_to_set.joint_angles.append(head_angle) # the joint values have to be in the same order as the names!!
         joint_angles_to_set.relative = False # if true you can increment positions
         joint_angles_to_set.speed = 0.1 # keep this low if you can
         self.jointPub.publish(joint_angles_to_set)
         
-    def set_home_position(self):
-        print "home position"
-        self.set_stiffness(True) # don't let the robot stay enabled for too long, the motors will overheat!! (don't go for lunch or something)
-        rospy.sleep(1.0)
-        if(self.follow_flag=='f'):
-            print "home with follow"
-            names = ["LShoulderPitch", "RShoulderPitch"]
-            angles = [0.5, 0.5]
-            self.set_joint_angles(names, angles)
-        else:
-            self.set_joint_angles(["LShoulderPitch"],[0.5])
-        self.set_stiffness(False)
-
-    def repetitive_move(self):
-        print "I am here repetitive move!!"
-        self.set_stiffness(True) 
-        count = 0
-        while(self.instruction=='r' ):
-            if(self.follow_flag=='n'):
-                rospy.sleep(1.0)
-                self.set_joint_angles(["LShoulderPitch"],[count*-0.5])
-            elif(self.follow_flag=='f'):
-                rospy.sleep(1.0)
-                names = ["LShoulderPitch", "RShoulderPitch"]
-                angles = [count*-0.5, count*-0.5]
-                self.set_joint_angles(names, angles)
-            count = (count+1)%2
-
-
-        self.set_home_position()
-        self.set_stiffness(False)
-
-    def symetric_move(self):
-        print "symetirc move"
-        self.set_stiffness(True) 
-        count = 0
-
-        while(self.instruction=='f'):
-            rospy.sleep(1.0)
-            name = ["LShoulderRoll", "RShoulderRoll"]
-            angle = [count*-0.5, count*-0.5]
-            self.set_joint_angles(name, angle)
-            count = (count+1)%2
-        self.set_home_position()
-
-        self.set_stiffness(False)
 
 
     def central_execute(self):
@@ -141,20 +85,23 @@ class Central:
         rospy.Subscriber("bumper",Bumper,self.bumper_cb)
         rospy.Subscriber("tactile_touch",HeadTouch,self.touch_cb)
         rospy.Subscriber("/nao_robot/camera/top/camera/image_raw",Image,self.image_cb)
-        rospy.Subscriber("instruction", String, self.instruction_cb)
         self.jointPub = rospy.Publisher("joint_angles",JointAnglesWithSpeed,queue_size=10)
-        rate = rospy.Rate(10) # sets the sleep time to 10ms
-        
-        while not rospy.is_shutdown():
-            if self.instruction=='h':
-                self.set_home_position()
-            elif self.instruction=='r':
-                self.repetitive_move()
-            else:
-                self.set_home_position()
 
-        self.set_stiffness(self.stiffness)
-        rate.sleep()
+
+        # test sequence to demonstrate setting joint angles
+        self.set_stiffness(True) # don't let the robot stay enabled for too long, the motors will overheat!! (don't go for lunch or something)
+        rospy.sleep(1.0)
+        self.set_joint_angles(0.5)
+        rospy.sleep(3.0)
+        self.set_joint_angles(0.0)
+        rospy.sleep(3.0)
+        self.set_stiffness(False) # always check that your robot is in a stable position before disabling the stiffness!!
+
+        rate = rospy.Rate(10) # sets the sleep time to 10ms
+
+        while not rospy.is_shutdown():
+            self.set_stiffness(self.stiffness)
+            rate.sleep()
 
     # rospy.spin() just blocks the code from exiting, if you need to do any periodic tasks use the above loop
     # each Subscriber is handled in its own thread
