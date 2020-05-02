@@ -29,7 +29,7 @@ class Central:
     def instruction_cb(self,data):
         if(data.data == 'f' or data.data == 'n'):
             self.follow_flag = data.data
-        elif(data.data == 'r' or data.data == 'h'):
+        elif(data.data == 'r' or data.data == 'h' or data.data == 'd'):
             self.instruction = data.data
 
     def joints_cb(self,data):
@@ -111,7 +111,30 @@ class Central:
                 angles = [count*-0.5, count*-0.5]
                 self.set_joint_angles(names, angles)
             count = (count+1)%2
+        self.set_home_position()
+        self.set_stiffness(False)
 
+    def dance(self):
+        self.set_stiffness(True) 
+        count = 0
+        
+        names0 = ["HeadPitch","LShoulderPitch", "RShoulderPitch","LShoulderRoll", "RShoulderRoll","LElbowRoll","RElbowRoll"]
+        angles0 = [-0.5, 0, 0, 0, 0, 0, 0]
+        names1 = ["HeadPitch", "HeadYaw", "LShoulderPitch", "RShoulderPitch","LShoulderRoll", "RShoulderRoll","LElbowRoll","RElbowRoll"]
+        angles1 = [0.5,        -0.5,             -0.5,            0.5,              1,           0.3,            0,            1.5]
+        names2 = ["HeadPitch", "HeadYaw", "LShoulderPitch", "RShoulderPitch","LShoulderRoll", "RShoulderRoll","LElbowRoll","RElbowRoll"]
+        angles2 = [0.5,        0.5,             0.5,            -0.5,             -0.3,            -1,           -1.5,         0]
+        names3 = ["HeadYaw","LShoulderPitch", "RShoulderPitch","LShoulderRoll", "RShoulderRoll","LElbowRoll","RElbowRoll"]
+        angles3 = [ -1, -1, 1, -1, 0, 0]
+        names4 = ["LShoulderPitch", "RShoulderPitch","LShoulderRoll", "RShoulderRoll","LElbowRoll","RElbowRoll"]
+        angles4 = [ 1, 0, -1, -0.5]
+        names = [names1, names2]
+        angles = [angles1, angles2]
+
+        while(self.instruction=='d' ):
+            self.set_joint_angles(names[count], angles[count])
+            count = (count+1)%2
+            rospy.sleep(4.0)
 
         self.set_home_position()
         self.set_stiffness(False)
@@ -150,6 +173,8 @@ class Central:
                 self.set_home_position()
             elif self.instruction=='r':
                 self.repetitive_move()
+            elif self.instruction=='d':    
+                self.dance()
             else:
                 self.set_home_position()
 
