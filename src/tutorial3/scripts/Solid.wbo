@@ -1,0 +1,20 @@
+#VRML_OBJ R2020a utf8
+Solid {
+  translation -0.93 0.48 0.32
+  children [
+    DEF BALL_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        roughness 0.3
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.0325
+        subdivision 4
+      }
+    }
+  ]
+  name "ball"
+  model "ball"
+  boundingObject USE BALL_SHAPE
+}
