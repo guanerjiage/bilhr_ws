@@ -192,7 +192,7 @@ class Central:
             # state 1, arm back to home position, then stop
             if self.robot_state == 1:
                 self.set_stiffness(True)
-                rospy.sleep(1.0)
+                rospy.sleep(0.5)
                 self.set_joint_angles("LShoulderPitch", 0.1)
                 self.set_joint_angles("LElbowRoll", -0.6)
                 self.set_joint_angles("LShoulderRoll", 0.1)
@@ -211,7 +211,7 @@ class Central:
             # state 2, wave
             elif self.robot_state == 2:
                 self.set_stiffness(True)
-                rospy.sleep(1.0)
+                rospy.sleep(0.5)
                 # wave forward
                 self.set_joint_angles("LShoulderPitch", -1.0)
                 self.set_joint_angles("LElbowRoll", -0.7)
@@ -235,7 +235,7 @@ class Central:
             # state 3, head back to home position, then stop
             elif self.robot_state == 3:
                 self.set_stiffness(True)
-                rospy.sleep(1.0)
+                rospy.sleep(0.5)
                 self.set_joint_angles("HeadPitch", 0.15)
                 self.set_joint_angles("HeadYaw", 0.2)
                 # set robot to no action state
@@ -290,7 +290,7 @@ class Central:
             # state 7, track red ball
             elif self.robot_state == 7:
                 # prepare input data from pixel
-                x = np.array([(self.red_blob_x - 160) / 160.0, (self.red_blob_y - 120) / 120.0]).reshape((-1, 1))
+                x = np.array([self.red_blob_x  / 320.0, self.red_blob_y / 240.0]).reshape((-1, 1))
                 # predict using pre-trained neural network
                 y = self.nn.predict(x)
                 lsp = y[0] # left shoulder pitch
@@ -303,12 +303,12 @@ class Central:
                 lsr = max(0.0, lsr)
                 lsr = min(1.0, lsr)
                 self.set_stiffness(True)
-                rospy.sleep(1.0)
+                rospy.sleep(0.5)
                 self.set_joint_angles("LShoulderPitch", lsp)
                 self.set_joint_angles("LShoulderRoll", lsr)
                 self.set_joint_angles("LHand", 1)
 
-                rospy.sleep(2.0)
+                rospy.sleep(1.0)
                 self.set_stiffness(False) 
 
             # no action

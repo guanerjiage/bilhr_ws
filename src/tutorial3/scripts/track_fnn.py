@@ -4,10 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from fnn.fnn import FNN
 
-# one hot encoder
-def one_hot_encode(label, n):
-    return np.eye(n)[np.array(label, dtype=np.int32).reshape(-1)].T
-
 if __name__ == "__main__":
     # load training dataset, reshape to required shape
     training_set = []
@@ -31,11 +27,12 @@ if __name__ == "__main__":
     training_label_matrix = np.array(training_label).T
 
     # normalization
-    # pixel 240 x 320, normalize to [-1, 1]
-    training_set_matrix[0, :] = (training_set_matrix[0, :] - 160) / 160.0
-    training_set_matrix[1, :] = (training_set_matrix[1, :] - 120) / 120.0
+    # pixel 240 x 320, normalize to [0, 1]
+    training_set_matrix[0, :] = training_set_matrix[0, :] / 320.0
+    training_set_matrix[1, :] = training_set_matrix[1, :] / 240.0
     # pitch [-2, 2] to [0, 1], roll [0, 1]
     # training_label_matrix[0, :] = (training_label_matrix[0, :] + 2) / 4.0
+    # direct output, no normalization
 
     # load test dataset, reshape to required shape
     test_set_matrix = training_set_matrix[:, ::5]
@@ -43,7 +40,7 @@ if __name__ == "__main__":
 
     # learning rate
     lr = 0.05
-    # initialize neural network, here 2 Sigmoid hidden layer and 1 Sigmoid output layer
+    # initialize neural network, here 1 ReLU hidden layer and 1 direct output layer
     nn = FNN(discrete=False, learning_rate=lr, batch_size=1)
     nn.add_layer(2, 32, nn.ReLU, nn.RandnInitializer, nn.ZeroInitializer, 2, 0.001, "hidden1")
     # nn.add_layer(64, 64, nn.Sigmoid, nn.RandnInitializer, nn.ZeroInitializer, 2, 0.001, "hidden2")
