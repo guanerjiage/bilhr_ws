@@ -3,13 +3,15 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from fnn.fnn import FNN
-from mnist_dataset.mnist import unpack_mnist_label, unpack_mnist_image
+from mnist_dataset.mnist import unpack_mnist_label, unpack_mnist_image, download_mnist_dataset
 
 # one hot encoder
 def one_hot_encode(label, n):
     return np.eye(n)[np.array(label, dtype=np.int32).reshape(-1)].T
 
 if __name__ == "__main__":
+    # download dataset if not exists
+    download_mnist_dataset("mnist_dataset/")
     # load training dataset, reshape to required shape
     training_set = unpack_mnist_image("mnist_dataset/train-images.idx3-ubyte")
     training_set_matrix = training_set.reshape((60000, -1)).transpose()
