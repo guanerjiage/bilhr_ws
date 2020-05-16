@@ -1,4 +1,4 @@
-The system is: Linux - 4.15.0-96-generic - x86_64
+The system is: Linux - 4.15.0-99-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -28,52 +28,28 @@ The CXX compiler identification is GNU, found in "/home/gejg/ros/bioinspired_ws/
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d9205/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d9205.dir/build.make CMakeFiles/cmTC_d9205.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_eb202/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb202.dir/build.make CMakeFiles/cmTC_eb202.dir/build
 make[1]: Entering directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Building C object CMakeFiles/cmTC_d9205.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_d9205.dir/testCCompiler.c.o   -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp/testCCompiler.c
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Linking C executable cmTC_d9205
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9205.dir/link.txt --verbose=1
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cc       CMakeFiles/cmTC_d9205.dir/testCCompiler.c.o  -o cmTC_d9205 -rdynamic 
+Building C object CMakeFiles/cmTC_eb202.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_eb202.dir/testCCompiler.c.o   -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_eb202
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb202.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_eb202.dir/testCCompiler.c.o  -o cmTC_eb202 -rdynamic 
 make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0f0be/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0f0be.dir/build.make CMakeFiles/cmTC_0f0be.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_733ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_733ba.dir/build.make CMakeFiles/cmTC_733ba.dir/build
 make[1]: Entering directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Building C object CMakeFiles/cmTC_0f0be.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_0f0be.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Linking C executable cmTC_0f0be
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f0be.dir/link.txt --verbose=1
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cc      -v CMakeFiles/cmTC_0f0be.dir/CMakeCCompilerABI.c.o  -o cmTC_0f0be -rdynamic  
+Building C object CMakeFiles/cmTC_733ba.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_733ba.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_733ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_733ba.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_733ba.dir/CMakeCCompilerABI.c.o  -o cmTC_733ba -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -83,8 +59,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0f0be' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX5ief1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_0f0be /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_0f0be.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_733ba' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqUjpo1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_733ba /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_733ba.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
 
 
@@ -92,26 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0f0be/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0f0be.dir/build.make CMakeFiles/cmTC_0f0be.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_733ba/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_733ba.dir/build.make CMakeFiles/cmTC_733ba.dir/build]
   ignore line: [make[1]: Entering directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [Building C object CMakeFiles/cmTC_0f0be.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_0f0be.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [Linking C executable cmTC_0f0be]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f0be.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_0f0be.dir/CMakeCCompilerABI.c.o  -o cmTC_0f0be -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_733ba.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_733ba.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_733ba]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_733ba.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_733ba.dir/CMakeCCompilerABI.c.o  -o cmTC_733ba -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -121,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0f0be' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX5ief1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_0f0be /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_0f0be.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_733ba' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqUjpo1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_733ba /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_733ba.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccX5ief1.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccqUjpo1.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -145,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0f0be] ==> ignore
+    arg [cmTC_733ba] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -157,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_0f0be.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_733ba.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -191,26 +155,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_af6ff/fast"
-/usr/bin/make -f CMakeFiles/cmTC_af6ff.dir/build.make CMakeFiles/cmTC_af6ff.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_14ac7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_14ac7.dir/build.make CMakeFiles/cmTC_14ac7.dir/build
 make[1]: Entering directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Building C object CMakeFiles/cmTC_af6ff.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_af6ff.dir/feature_tests.c.o   -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/feature_tests.c
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Linking C executable cmTC_af6ff
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af6ff.dir/link.txt --verbose=1
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cc       CMakeFiles/cmTC_af6ff.dir/feature_tests.c.o  -o cmTC_af6ff -rdynamic 
+Building C object CMakeFiles/cmTC_14ac7.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_14ac7.dir/feature_tests.c.o   -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/feature_tests.c
+Linking C executable cmTC_14ac7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14ac7.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_14ac7.dir/feature_tests.c.o  -o cmTC_14ac7 -rdynamic 
 make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
 
 
@@ -223,26 +175,14 @@ make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeF
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5d6d7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5d6d7.dir/build.make CMakeFiles/cmTC_5d6d7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8827b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8827b.dir/build.make CMakeFiles/cmTC_8827b.dir/build
 make[1]: Entering directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Building C object CMakeFiles/cmTC_5d6d7.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_5d6d7.dir/feature_tests.c.o   -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/feature_tests.c
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Linking C executable cmTC_5d6d7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d6d7.dir/link.txt --verbose=1
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cc       CMakeFiles/cmTC_5d6d7.dir/feature_tests.c.o  -o cmTC_5d6d7 -rdynamic 
+Building C object CMakeFiles/cmTC_8827b.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_8827b.dir/feature_tests.c.o   -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8827b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8827b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_8827b.dir/feature_tests.c.o  -o cmTC_8827b -rdynamic 
 make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
 
 
@@ -255,26 +195,14 @@ make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeF
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e95b7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e95b7.dir/build.make CMakeFiles/cmTC_e95b7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_05d7e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05d7e.dir/build.make CMakeFiles/cmTC_05d7e.dir/build
 make[1]: Entering directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Building C object CMakeFiles/cmTC_e95b7.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_e95b7.dir/feature_tests.c.o   -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/feature_tests.c
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Linking C executable cmTC_e95b7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e95b7.dir/link.txt --verbose=1
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cc       CMakeFiles/cmTC_e95b7.dir/feature_tests.c.o  -o cmTC_e95b7 -rdynamic 
+Building C object CMakeFiles/cmTC_05d7e.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_05d7e.dir/feature_tests.c.o   -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/feature_tests.c
+Linking C executable cmTC_05d7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05d7e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_05d7e.dir/feature_tests.c.o  -o cmTC_05d7e -rdynamic 
 make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
 
 
@@ -285,52 +213,28 @@ make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeF
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_475ea/fast"
-/usr/bin/make -f CMakeFiles/cmTC_475ea.dir/build.make CMakeFiles/cmTC_475ea.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_66ad7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_66ad7.dir/build.make CMakeFiles/cmTC_66ad7.dir/build
 make[1]: Entering directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Building CXX object CMakeFiles/cmTC_475ea.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_475ea.dir/testCXXCompiler.cxx.o -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Linking CXX executable cmTC_475ea
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_475ea.dir/link.txt --verbose=1
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/c++        CMakeFiles/cmTC_475ea.dir/testCXXCompiler.cxx.o  -o cmTC_475ea -rdynamic 
+Building CXX object CMakeFiles/cmTC_66ad7.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_66ad7.dir/testCXXCompiler.cxx.o -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_66ad7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66ad7.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_66ad7.dir/testCXXCompiler.cxx.o  -o cmTC_66ad7 -rdynamic 
 make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2bd25/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2bd25.dir/build.make CMakeFiles/cmTC_2bd25.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e246c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e246c.dir/build.make CMakeFiles/cmTC_e246c.dir/build
 make[1]: Entering directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Building CXX object CMakeFiles/cmTC_2bd25.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_2bd25.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Linking CXX executable cmTC_2bd25
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bd25.dir/link.txt --verbose=1
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/c++       -v CMakeFiles/cmTC_2bd25.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2bd25 -rdynamic  
+Building CXX object CMakeFiles/cmTC_e246c.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_e246c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e246c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e246c.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_e246c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e246c -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -340,8 +244,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2bd25' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxHof9k.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2bd25 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2bd25.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e246c' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBiuw1o.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_e246c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_e246c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
 
 
@@ -349,26 +253,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2bd25/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2bd25.dir/build.make CMakeFiles/cmTC_2bd25.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e246c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e246c.dir/build.make CMakeFiles/cmTC_e246c.dir/build]
   ignore line: [make[1]: Entering directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [Building CXX object CMakeFiles/cmTC_2bd25.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_2bd25.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [Linking CXX executable cmTC_2bd25]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bd25.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_2bd25.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2bd25 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_e246c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_e246c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_e246c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e246c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_e246c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e246c -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -378,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2bd25' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxHof9k.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2bd25 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2bd25.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e246c' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBiuw1o.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_e246c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_e246c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccxHof9k.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccBiuw1o.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -402,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2bd25] ==> ignore
+    arg [cmTC_e246c] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -414,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_2bd25.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_e246c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -446,26 +338,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d0c8f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d0c8f.dir/build.make CMakeFiles/cmTC_d0c8f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2f96f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f96f.dir/build.make CMakeFiles/cmTC_2f96f.dir/build
 make[1]: Entering directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Building CXX object CMakeFiles/cmTC_d0c8f.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_d0c8f.dir/feature_tests.cxx.o -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/feature_tests.cxx
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Linking CXX executable cmTC_d0c8f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0c8f.dir/link.txt --verbose=1
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/c++        CMakeFiles/cmTC_d0c8f.dir/feature_tests.cxx.o  -o cmTC_d0c8f -rdynamic 
+Building CXX object CMakeFiles/cmTC_2f96f.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_2f96f.dir/feature_tests.cxx.o -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2f96f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f96f.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_2f96f.dir/feature_tests.cxx.o  -o cmTC_2f96f -rdynamic 
 make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
 
 
@@ -531,26 +411,14 @@ make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeF
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8233f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8233f.dir/build.make CMakeFiles/cmTC_8233f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7a2bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a2bb.dir/build.make CMakeFiles/cmTC_7a2bb.dir/build
 make[1]: Entering directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Building CXX object CMakeFiles/cmTC_8233f.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_8233f.dir/feature_tests.cxx.o -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/feature_tests.cxx
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Linking CXX executable cmTC_8233f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8233f.dir/link.txt --verbose=1
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/c++        CMakeFiles/cmTC_8233f.dir/feature_tests.cxx.o  -o cmTC_8233f -rdynamic 
+Building CXX object CMakeFiles/cmTC_7a2bb.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_7a2bb.dir/feature_tests.cxx.o -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7a2bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a2bb.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_7a2bb.dir/feature_tests.cxx.o  -o cmTC_7a2bb -rdynamic 
 make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
 
 
@@ -616,26 +484,14 @@ make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeF
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f50be/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f50be.dir/build.make CMakeFiles/cmTC_f50be.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e181d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e181d.dir/build.make CMakeFiles/cmTC_e181d.dir/build
 make[1]: Entering directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Building CXX object CMakeFiles/cmTC_f50be.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_f50be.dir/feature_tests.cxx.o -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/feature_tests.cxx
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Linking CXX executable cmTC_f50be
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f50be.dir/link.txt --verbose=1
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/c++        CMakeFiles/cmTC_f50be.dir/feature_tests.cxx.o  -o cmTC_f50be -rdynamic 
+Building CXX object CMakeFiles/cmTC_e181d.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_e181d.dir/feature_tests.cxx.o -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e181d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e181d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_e181d.dir/feature_tests.cxx.o  -o cmTC_e181d -rdynamic 
 make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
 
 
@@ -699,52 +555,28 @@ make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeF
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_65459/fast"
-/usr/bin/make -f CMakeFiles/cmTC_65459.dir/build.make CMakeFiles/cmTC_65459.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d1e53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1e53.dir/build.make CMakeFiles/cmTC_d1e53.dir/build
 make[1]: Entering directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Building C object CMakeFiles/cmTC_65459.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_65459.dir/CheckIncludeFile.c.o   -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Linking C executable cmTC_65459
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65459.dir/link.txt --verbose=1
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cc       CMakeFiles/cmTC_65459.dir/CheckIncludeFile.c.o  -o cmTC_65459 -rdynamic 
+Building C object CMakeFiles/cmTC_d1e53.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_d1e53.dir/CheckIncludeFile.c.o   -c /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d1e53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1e53.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d1e53.dir/CheckIncludeFile.c.o  -o cmTC_d1e53 -rdynamic 
 make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_71fb2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_71fb2.dir/build.make CMakeFiles/cmTC_71fb2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_24efb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_24efb.dir/build.make CMakeFiles/cmTC_24efb.dir/build
 make[1]: Entering directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Building C object CMakeFiles/cmTC_71fb2.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_71fb2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-Linking C executable cmTC_71fb2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71fb2.dir/link.txt --verbose=1
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libssl.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cmake: /home/gejg/software/pynaoqi/libcrypto.so.1.0.0: no version information available (required by /usr/lib/x86_64-linux-gnu/libcurl.so.4)
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_71fb2.dir/CheckFunctionExists.c.o  -o cmTC_71fb2 -rdynamic -lpthread 
+Building C object CMakeFiles/cmTC_24efb.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_24efb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_24efb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24efb.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_24efb.dir/CheckFunctionExists.c.o  -o cmTC_24efb -rdynamic -lpthread 
 make[1]: Leaving directory '/home/gejg/ros/bioinspired_ws/build/tutorial2/CMakeFiles/CMakeTmp'
 
 

@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/gejg/ros/bioinspired_ws/devel/.private/tutorial2:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/gejg/ros/bioinspired_ws/devel/.private/tutorial2/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/gejg/ros/bioinspired_ws/devel/.private/tutorial2/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/gejg/ros/bioinspired_ws/build/tutorial2"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/gejg/ros/bioinspired_ws/devel/.private/tutorial2/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/gejg/ros/bioinspired_ws/src/tutorial2:$ROS_PACKAGE_PATH"

@@ -1,0 +1,8 @@
+prefix=/home/gejg/ros/bioinspired_ws/install
+
+Name: tutorial3
+Description: Description of tutorial3
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

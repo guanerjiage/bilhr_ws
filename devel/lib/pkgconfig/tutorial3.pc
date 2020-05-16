@@ -1,0 +1,1 @@
+/home/gejg/ros/bioinspired_ws/devel/.private/tutorial3/lib/pkgconfig/tutorial3.pc
