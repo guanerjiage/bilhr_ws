@@ -21,7 +21,7 @@ class Central:
         self.joint_velocities = []
         self.jointPub = 0
         self.stiffness = False 
-        self.instruction = 'b' 
+        self.instruction = 'b'
         self.follow_flag = 'n'
         self.red_bolb_x = 0
         self.red_bolb_y = 0
@@ -88,7 +88,9 @@ class Central:
         lower_green = np.array([50,100,30])
         upper_green = np.array([80,255,255])
         mask_green = cv2.inRange(hsv_image, lower_green, upper_green)
-        color_detect = cv2.bitwise_and(hsv_image, hsv_image, mask = mask_green)
+        if self.instruction=='b':
+            mask = mask_green
+        color_detect = cv2.bitwise_and(hsv_image, hsv_image, mask = mask)
         blur = cv2.GaussianBlur(color_detect,(5,5),0)
         
         # find the biggest red blob
@@ -152,9 +154,9 @@ class Central:
         self.set_stiffness(True) 
         if(self.follow_flag=='n'):
             rospy.sleep(2.0)
-            r1=randint(0,70)
-            r2=randint(0,100)
-            self.set_joint_angles(["LShoulderPitch", "HeadYaw","LShoulderRoll"],[r1*-0.01, 0.8,-0.3+r2*0.01])
+            r1=randint(0,700)
+            r2=randint(0,1000)
+            self.set_joint_angles(["LShoulderPitch", "HeadYaw","LShoulderRoll"],[r1*-0.001, 0.7,-0.3+r2*0.001])
         elif(self.follow_flag=='f'):
             rospy.sleep(2.0)
             names = ["LShoulderPitch", "RShoulderPitch", "HeadYaw"]
@@ -202,7 +204,7 @@ class Central:
         pred = pred[0]
         pred[0] = pred[0]*0.7-0.7
         pred[1] = pred[1]-0.3
-        self.set_joint_angles(["LShoulderPitch", "HeadYaw","LShoulderRoll"],[pred[0], 0.8, pred[1]])
+        self.set_joint_angles(["LShoulderPitch", "HeadYaw","LShoulderRoll"],[pred[0], 0.7, pred[1]])
         self.set_stiffness(False) 
 
     def forward(self,index):
@@ -230,8 +232,8 @@ class Central:
 
     def active_neuro_pos(self,inputs):
         resolution = 50
-        field_size = 3.0
-        RFpos = [[0,0],[1,1],[2,2]]
+        field_size = 5.0
+        RFpos = [[0,0],[1,1],[2,2],[3,3],[4,4]]
         Position = []
         for r in range(len(RFpos)):
             Coord = []
