@@ -1,0 +1,269 @@
+[
+    {
+        "prob": [
+            0.3333333333333333, 
+            0.6666666666666666
+        ], 
+        "attr": null, 
+        "parent": null, 
+        "feature": 2, 
+        "id": 5, 
+        "output": null, 
+        "dataset": null, 
+        "children": [
+            6, 
+            7
+        ]
+    }, 
+    {
+        "prob": [
+            1.0
+        ], 
+        "attr": "Yes", 
+        "parent": 5, 
+        "feature": null, 
+        "id": 6, 
+        "output": [
+            "Yes"
+        ], 
+        "dataset": [
+            [
+                "Youth", 
+                "Yes", 
+                "Yes", 
+                "Normal", 
+                "Yes"
+            ], 
+            [
+                "MiddleAge", 
+                "Yes", 
+                "Yes", 
+                "Good", 
+                "Yes"
+            ], 
+            [
+                "MiddleAge", 
+                "No", 
+                "Yes", 
+                "VeryGood", 
+                "Yes"
+            ], 
+            [
+                "MiddleAge", 
+                "No", 
+                "Yes", 
+                "VeryGood", 
+                "Yes"
+            ], 
+            [
+                "Old", 
+                "No", 
+                "Yes", 
+                "VeryGood", 
+                "Yes"
+            ], 
+            [
+                "Old", 
+                "No", 
+                "Yes", 
+                "Good", 
+                "Yes"
+            ]
+        ], 
+        "children": []
+    }, 
+    {
+        "prob": [
+            0.25, 
+            0.75
+        ], 
+        "attr": "No", 
+        "parent": 5, 
+        "feature": 1, 
+        "id": 7, 
+        "output": null, 
+        "dataset": null, 
+        "children": [
+            8, 
+            9
+        ]
+    }, 
+    {
+        "prob": [
+            1.0
+        ], 
+        "attr": "Yes", 
+        "parent": 7, 
+        "feature": null, 
+        "id": 8, 
+        "output": [
+            "Yes"
+        ], 
+        "dataset": [
+            [
+                "Youth", 
+                "Yes", 
+                "No", 
+                "Good", 
+                "Yes"
+            ], 
+            [
+                "Old", 
+                "Yes", 
+                "No", 
+                "Good", 
+                "Yes"
+            ], 
+            [
+                "Old", 
+                "Yes", 
+                "No", 
+                "VeryGood", 
+                "Yes"
+            ]
+        ], 
+        "children": []
+    }, 
+    {
+        "prob": [
+            0.5555555555555556, 
+            0.4444444444444444
+        ], 
+        "attr": "No", 
+        "parent": 7, 
+        "feature": 3, 
+        "id": 9, 
+        "output": null, 
+        "dataset": null, 
+        "children": [
+            10, 
+            13
+        ]
+    }, 
+    {
+        "prob": [
+            0.8, 
+            0.2
+        ], 
+        "attr": "Good", 
+        "parent": 9, 
+        "feature": 0, 
+        "id": 10, 
+        "output": null, 
+        "dataset": null, 
+        "children": [
+            11, 
+            12
+        ]
+    }, 
+    {
+        "prob": [
+            0.75, 
+            0.25
+        ], 
+        "attr": "Youth", 
+        "parent": 10, 
+        "feature": null, 
+        "id": 11, 
+        "output": [
+            "No", 
+            "Yes"
+        ], 
+        "dataset": [
+            [
+                "Youth", 
+                "No", 
+                "No", 
+                "Good", 
+                "No"
+            ], 
+            [
+                "Youth", 
+                "No", 
+                "No", 
+                "Good", 
+                "No"
+            ], 
+            [
+                "Youth", 
+                "No", 
+                "No", 
+                "Good", 
+                "No"
+            ], 
+            [
+                "Youth", 
+                "No", 
+                "No", 
+                "Good", 
+                "Yes"
+            ]
+        ], 
+        "children": []
+    }, 
+    {
+        "prob": [
+            1.0
+        ], 
+        "attr": "MiddleAge", 
+        "parent": 10, 
+        "feature": null, 
+        "id": 12, 
+        "output": [
+            "No"
+        ], 
+        "dataset": [
+            [
+                "MiddleAge", 
+                "No", 
+                "No", 
+                "Good", 
+                "No"
+            ]
+        ], 
+        "children": []
+    }, 
+    {
+        "prob": [
+            1.0
+        ], 
+        "attr": "Normal", 
+        "parent": 9, 
+        "feature": null, 
+        "id": 13, 
+        "output": [
+            "No"
+        ], 
+        "dataset": [
+            [
+                "Youth", 
+                "No", 
+                "No", 
+                "Normal", 
+                "No"
+            ], 
+            [
+                "Youth", 
+                "No", 
+                "No", 
+                "Normal", 
+                "No"
+            ], 
+            [
+                "MiddleAge", 
+                "No", 
+                "No", 
+                "Normal", 
+                "No"
+            ], 
+            [
+                "Old", 
+                "No", 
+                "No", 
+                "Normal", 
+                "No"
+            ]
+        ], 
+        "children": []
+    }
+]
